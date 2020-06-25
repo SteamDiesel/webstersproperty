@@ -436,50 +436,42 @@
                     </h2>
                 </div>
                 <div class="flex flex-wrap justify-center">
-                    <div class="bg-white w-100 h-120 rounded m-4 p-4">
-                        <img src="img/">
-                        <h3>
-
-                        </h3>
+                    <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
+                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">1</button>
+                        <h3 class="text-md md:text-2xl font-semibold mb-4">
+                        The Cold Hard TRUTH about the Current State of the Lending During the Covid-19 Pandemic                        </h3>
                         <p>
-                            
-                        </p>
+                        We’ve reveal what’s REALLY happening behind the scenes and why it seems so much harder to become finance Approved in the current marketplace                        </p>
                     </div>
-                    <div class="bg-white w-100 h-120 rounded m-4 p-4">
-                        <img src="img/">
-                        <h3>
-
-                        </h3>
+                    <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
+                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">2</button>
+                        <h3 class="text-md md:text-2xl font-semibold mb-4">
+                        4 Little Tips to Help You Ensure That You End Up With A Home You're In Love With!                        </h3>
                         <p>
-                            
-                        </p>
+                        We’ve used these tips and tricks to accelerate the results for our clients so they [achieve desired outcome] much faster – now YOU can do the same!                        </p>
                     </div>
-                    <div class="bg-white w-100 h-120 rounded m-4 p-4">
-                        <img src="img/">
-                        <h3>
-
+                    <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
+                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">3</button>
+                        <h3 class="text-md md:text-2xl font-semibold mb-4">
+                        Beware of Property Marketing Groups And Developer Incentives  
                         </h3>
                         <p>
-                            
-                        </p>
+                        “Hey these guys are giving me a great deal”, Wrong! We’ll show why you should be EXTREMELY wary of some vendors offers, there’s a lot more to it than first meets the eye and what you should do instead                        </p>
                     </div>
-                    <div class="bg-white w-100 h-120 rounded m-4 p-4">
-                        <img src="img/">
-                        <h3>
-
+                    <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
+                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">4</button>
+                        <h3 class="text-md md:text-2xl font-semibold mb-4">
+                        What Is Lenders Mortgage Insurance, What Will It Cost Me and What Impact Does That Have On The End Cost of My Home?
                         </h3>
                         <p>
-                            
-                        </p>
+                        This all-important piece of the puzzle is crucial to becoming a homeowner and without it you are doomed to failure – make sure you have this at all costs!                        </p>
                     </div>
-                    <div class="bg-white w-100 h-120 rounded m-4 p-4">
-                        <img src="img/">
-                        <h3>
-
-                        </h3>
+                    <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
+                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">5</button>
+                        <h3 class="text-md md:text-2xl font-semibold mb-4">
+                        What Never To Do When Dealing With A Financier                        </h3>
                         <p>
-                            
-                        </p>
+                        Understanding Bank Lending Policy is crucial to getting into your new home. These essential Items will ensure your deal is approved and that your purchase doesn’t fall over in the final stages leaving your without your deposit and Crying!                        </p>
                     </div>
                 </div>
             </div>
