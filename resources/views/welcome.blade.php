@@ -79,7 +79,10 @@
                     <p class="text-md md:text-lg pb-8 text-center">
                         Even If you Have Less Than a 5% Deposit Or Money For Stamp Duty!
                     </p>
-                    <button class="px-8 py-6 text-md md:px-10 md:py-8 md:text-lg bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</button>
+                    <div class="mb-8 flex justify-center w-full">
+                    <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/Z3d01ADgIXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:px-10 md:py-8 md:text-lg bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
                 </div>
             </div>
 
@@ -166,7 +169,7 @@
                 <div class="container mx-auto flex flex-col items-center justify-center text-center">
                     <img class="rounded-full md:mb-20" src="img/Checklist-Icon-150x150.png">
                     <h2 class="text-xl font-semibold mb-10 md:mb-20">Simply Follow Our Proven Strategies For Finance Approval & You’ll Avoid Missing Out On A Once In A Lifetime Property Market Window</h2>
-                    <button class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
                 </div>
             </div>
 
@@ -240,11 +243,11 @@
                         
                     </div>
                     
-                    <button class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
                 </div>
             </div>
             <!-- small screen -->
-            <div class="block md:hidden h-full pt-40 flex justify-center items-center text-white" style="background-image: url(img/BG-Home-Interior-Blue.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
+            <div class="block md:hidden h-full pt-40 flex justify-center items-center text-white" style="background-image: url(img/BG-Home-Interior-Blue-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
                 <div class="bg-white py-10 w-full flex flex-col items-center container mx-auto">
                     
                     <h2 class="text-lg pb-8 font-semibold text-center">
@@ -255,7 +258,7 @@
                         <img class="h-full" src="img/Jeff-Review-E-mail.png" alt="Jeff feedback email saying: Yes all went super well, thank you andrew. Anthony was a Champion and Jason and Elissa did a teriffic job on the finance.">
                         <img class="h-full" src="img/Text-Message_01.png" alt="text message saying: thankyou very much for all your help with this purchase. Leanne and I couldn't have got through this process by ourselves and everything has just been terrific. thumbs up.">
                     </div>
-                    <button class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
                 </div>
             </div>
 
@@ -269,7 +272,7 @@
                             Here’s A Brief Outline Of What We’ll Cover In Your FREE 30-Minute Consultation…
                         </h2>
                     </div>
-                    <div class="flex flex-col items-center justify-center">    
+                    <div class="flex flex-col items-center justify-center mb-8">    
                         <div class="flex pr-4 max-w-3xl">
                             <div>
                                 <svg  viewBox="0 0 24 24" class="w-6 m-3"><circle cx="12" cy="12" r="10" class="primary"/><path class="white" d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"/></svg>    
@@ -347,7 +350,7 @@
                     
                     </div>
                     <div class="">
-                        <button class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</button>
+                        <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
                     </div>
                 
                 </div>
@@ -437,7 +440,7 @@
                 <div class="container mx-auto flex flex-col items-center justify-center text-center">
                     <img class="rounded-full md:mb-20" src="img/House-Hand-Icon-150x150.png">
                     <h2 class="text-xl font-semibold mb-10 md:mb-20">Are You Ready To Help Yourself Realise Your Property Dreams?</h2>
-                    <button class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
                 </div>
             </div>
 
@@ -452,7 +455,12 @@
                 </div>
                 <div class="flex flex-wrap justify-center">
                     <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
-                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">1</button>
+                        <div class="mb-8">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="#E2E8F0"/>
+                                <path d="M33.3779 16.8V42H29.8139V19.932H24.1259V16.8H33.3779Z" fill="#1E4975"/>
+                            </svg>
+                        </div>
                         <h3 class="text-md md:text-2xl font-semibold mb-4">
                             The Cold Hard TRUTH about the Current State of the Lending During the Covid-19 Pandemic
                         </h3>
@@ -461,7 +469,12 @@
                         </p>
                     </div>
                     <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
-                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">2</button>
+                        <div class="mb-8">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="#E2E8F0"/>
+                                <path d="M39.6041 38.868V42H21.4961V39.552L31.7561 29.652C33.0041 28.452 33.8441 27.42 34.2761 26.556C34.7081 25.668 34.9241 24.78 34.9241 23.892C34.9241 22.572 34.4561 21.552 33.5201 20.832C32.6081 20.088 31.2881 19.716 29.5601 19.716C26.7761 19.716 24.6281 20.628 23.1161 22.452L20.6681 20.328C21.6521 19.128 22.9361 18.192 24.5201 17.52C26.1281 16.848 27.9161 16.512 29.8841 16.512C32.5241 16.512 34.6241 17.148 36.1841 18.42C37.7441 19.668 38.5241 21.372 38.5241 23.532C38.5241 24.876 38.2361 26.148 37.6601 27.348C37.0841 28.548 35.9921 29.916 34.3841 31.452L26.6801 38.868H39.6041Z" fill="#1E4975"/>
+                            </svg>
+                        </div>
                         <h3 class="text-md md:text-2xl font-semibold mb-4">
                             4 Little Tips to Help You Ensure That You End Up With A Home You're In Love With!
                         </h3>
@@ -470,7 +483,12 @@
                         </p>
                     </div>
                     <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
-                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">3</button>
+                        <div class="mb-8">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="#E2E8F0"/>
+                                <path d="M31.5752 27.384C34.0472 27.624 35.9312 28.392 37.2272 29.688C38.5232 30.96 39.1712 32.592 39.1712 34.584C39.1712 36.024 38.8112 37.332 38.0912 38.508C37.3712 39.66 36.2912 40.584 34.8512 41.28C33.4352 41.952 31.6952 42.288 29.6312 42.288C27.8312 42.288 26.1032 42.024 24.4472 41.496C22.7912 40.944 21.4352 40.188 20.3792 39.228L22.0352 36.384C22.8992 37.2 24.0032 37.86 25.3472 38.364C26.6912 38.844 28.1192 39.084 29.6312 39.084C31.5032 39.084 32.9552 38.688 33.9872 37.896C35.0432 37.104 35.5712 36.012 35.5712 34.62C35.5712 33.228 35.0552 32.148 34.0232 31.38C32.9912 30.612 31.4312 30.228 29.3432 30.228H27.3272V27.708L33.6632 19.932H21.5312V16.8H38.1632V19.248L31.5752 27.384Z" fill="#1E4975"/>
+                            </svg>
+                        </div>
                         <h3 class="text-md md:text-2xl font-semibold mb-4">
                             Beware of Property Marketing Groups And Developer Incentives  
                         </h3>
@@ -479,7 +497,12 @@
                         </p>
                     </div>
                     <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
-                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">4</button>
+                        <div class="mb-8">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="#E2E8F0"/>
+                                <path d="M42.111 35.808H37.323V42H33.831V35.808H19.827V33.288L32.715 16.8H36.603L24.255 32.712H33.939V27.24H37.323V32.712H42.111V35.808Z" fill="#1E4975"/>
+                            </svg>
+                        </div>
                         <h3 class="text-md md:text-2xl font-semibold mb-4">
                             What Is Lenders Mortgage Insurance, What Will It Cost Me and What Impact Does That Have On The End Cost of My Home?
                         </h3>
@@ -488,7 +511,13 @@
                         </p>
                     </div>
                     <div class="bg-white w-100 h-100 rounded p-8 m-4 flex flex-col items-center justify-start">
-                        <button class="bg-gray-200 rounded-full text-4xl font-bold primary w-20 h-20 shadow-md mb-8">5</button>
+                        <div class="mb-8">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="#E2E8F0"/>
+                                <path d="M29.0921 26.844C32.6921 26.844 35.3321 27.528 37.0121 28.896C38.7161 30.24 39.5681 32.088 39.5681 34.44C39.5681 35.928 39.2081 37.272 38.4881 38.472C37.7921 39.648 36.7241 40.584 35.2841 41.28C33.8681 41.952 32.1161 42.288 30.0281 42.288C28.2521 42.288 26.5361 42.024 24.8801 41.496C23.2241 40.944 21.8561 40.188 20.7761 39.228L22.4321 36.384C23.2961 37.2 24.4001 37.86 25.7441 38.364C27.0881 38.844 28.5041 39.084 29.9921 39.084C31.8881 39.084 33.3521 38.688 34.3841 37.896C35.4401 37.08 35.9681 35.976 35.9681 34.584C35.9681 33.072 35.3921 31.932 34.2401 31.164C33.0881 30.372 31.1201 29.976 28.3361 29.976H22.6121L23.9441 16.8H38.1641V19.932H26.9681L26.2841 26.844H29.0921Z" fill="#1E4975"/>
+                            </svg>
+                        </div>
+                    
                         <h3 class="text-md md:text-2xl font-semibold mb-4">
                             What Never To Do When Dealing With A Financier
                         </h3>
@@ -498,7 +527,7 @@
                     </div>
                 </div>
                 <div class="w-full flex items-center justify-center">
-                    <button class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
 
                 </div>
             </div>
@@ -516,7 +545,7 @@
                     <p class="mb-8 text-center max-w-3xl">
                         When you work with Property Partners we’re so confident that we can find you a finance and property solution that in the extremely unlikely event we can’t help you, we’ll write you a cheque for $500 – no questions asked. See T’s and C’s
                     </p>
-                    <button class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
                     
                 </div>
             </div>
@@ -602,7 +631,7 @@
                         
                     </div>
                     
-                    <button class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
                 </div>
             </div>
             <!-- small screen -->
@@ -619,7 +648,7 @@
                         <img class="" src="img/Google-Reviews_04-1.png">
                         
                     </div>
-                    <button class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
                 </div>
             </div>
 
@@ -676,7 +705,7 @@
                         </p>
                     </div>
                     
-                    <button class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</button>
+                    <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
 
 
                 </div>
