@@ -656,10 +656,6 @@ video {
   background-size: cover;
 }
 
-.border-collapse{
-  border-collapse: collapse;
-}
-
 .border-white{
   --border-opacity: 1;
   border-color: #fff;
@@ -964,7 +960,8 @@ video {
 }
 
 .focus\:outline-none:focus{
-  outline: 0;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .p-0{
@@ -1088,10 +1085,6 @@ video {
 
 .pb-16{
   padding-bottom: 4rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
 }
 
 .pt-40{

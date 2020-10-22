@@ -79,7 +79,7 @@
         <!-- Splash with video -->
         <div class="min-h-screen flex justify-center items-center text-white pb-16 px-4" 
         style="background-image: url(img/Hero-Background-5.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
-            <div class="flex flex-col items-center container mx-auto pt-20">
+            <div class="flex flex-col items-center container mx-auto">
                 <h2 class="text-white text-xl uppercase pb-8 text-center">
                     ATTENTION FIRST HOME BUYER
                 </h2>
