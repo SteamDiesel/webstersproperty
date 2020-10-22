@@ -2,7 +2,7 @@
 
 
     <!-- large screen -->
-    <div class="hidden md:block h-full py-20 flex justify-center items-center text-white" style="background-image: url(img/BG-Home-Interior-Blue-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
+    <div class="hidden md:block h-full py-20 flex justify-center items-center text-white" style="background-color: #1e4975; background-image: url(img/BG-Home-Interior-Blue-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
         <div class="bg-white md:p-20 w-full rounded-lg flex flex-col items-center container mx-auto">
 
             <h2 class="text-4xl pb-8 font-semibold text-center">
@@ -25,7 +25,7 @@
 
 
     <!-- small screen -->
-    <div class="block md:hidden h-full pt-40 flex justify-center items-center text-white" style="background-image: url(img/BG-Home-Interior-Blue-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
+    <div class="block md:hidden h-full pt-40 flex justify-center items-center text-white" style="background-color: #1e4975; background-image: url(img/BG-Home-Interior-Blue-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
         <div class="bg-white py-10 w-full flex flex-col items-center container mx-auto">
 
             <h2 class="text-lg pb-8 font-semibold text-center">

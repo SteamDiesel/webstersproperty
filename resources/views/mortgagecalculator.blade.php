@@ -7,9 +7,10 @@
 
         <div class="bg-blue-200 min-h-screen">
         <example-component></example-component>
+        <mortgage-calculator></mortgage-calculator>
         </div>
 
-        <!-- section 2 -->
+        <!-- section 1 -->
         <x-download-eight-risk/>
 
 

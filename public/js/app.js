@@ -1922,6 +1922,330 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MortgageCalculator.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/MortgageCalculator.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "MortgageCalculator",
+  data: function data() {
+    return {
+      calc: {
+        price: 500000,
+        deposit: 25000,
+        grants: 15000,
+        lmi: 6000,
+        fees: 3000,
+        term: 30,
+        rate: 3,
+        extra_pmt: 1429,
+        rv: 0
+      }
+    };
+  },
+  filters: {
+    money: function money(amount) {
+      return "$" + amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); // return  +(Math.round(amount + "e+" + 2) + "e-" + 2);
+    }
+  },
+  computed: {
+    naf: function naf() {
+      return +this.calc.price - +this.calc.deposit - +this.calc.grants + +this.calc.fees + +this.calc.lmi;
+    },
+    intrate: function intrate() {
+      return this.calc.rate / 100;
+    },
+    monthly_pmt: function monthly_pmt() {
+      var _int = this.intrate / 12;
+
+      var y = Math.pow(1 + _int, +this.calc.term * 12);
+      var rvint = this.calc.rv * _int;
+      var pmt = this.naf * y * _int / (y - 1) + rvint;
+      return +(Math.round(pmt + "e+" + 2) + "e-" + 2);
+    },
+    schedule: function schedule() {
+      var lines = [];
+      var mortgage = this.naf;
+
+      while (mortgage > 0) {
+        var start = mortgage;
+
+        var _int2 = +this.intrate / 12 * mortgage;
+
+        var interest = +(Math.round(_int2 + "e+" + 2) + "e-" + 2);
+        var pmt = this.monthly_pmt;
+        var extra_pmt = this.calc.extra_pmt;
+        var month = lines.length + 1;
+        mortgage = mortgage + interest - pmt - extra_pmt;
+        var line = {
+          month: month,
+          start: +(Math.round(start + "e+" + 2) + "e-" + 2),
+          end: +(Math.round(mortgage + "e+" + 2) + "e-" + 2),
+          interest: interest,
+          pmt: pmt,
+          extra_pmt: extra_pmt
+        };
+        lines.push(line);
+      }
+
+      return lines;
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -37528,6 +37852,597 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MortgageCalculator.vue?vue&type=template&id=1af5c369&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/MortgageCalculator.vue?vue&type=template&id=1af5c369& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "flex justify-center" }, [
+      _c("div", { staticClass: "p-4 w-64" }, [
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "price" }
+            },
+            [_vm._v("House Price")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.price,
+                  expression: "calc.price"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "price",
+                type: "number",
+                placeholder: "Total property Price"
+              },
+              domProps: { value: _vm.calc.price },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "price", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "deposit" }
+            },
+            [_vm._v("Total Deposit")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.deposit,
+                  expression: "calc.deposit"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "deposit",
+                type: "number",
+                placeholder: "Total deposit paid for house"
+              },
+              domProps: { value: _vm.calc.deposit },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "deposit", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "grants" }
+            },
+            [_vm._v("Total Grants & Incentives")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.grants,
+                  expression: "calc.grants"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "grants",
+                type: "number",
+                placeholder: "Total of all grants, bonuses & incentives."
+              },
+              domProps: { value: _vm.calc.grants },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "grants", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "lmi" }
+            },
+            [_vm._v("Lenders Mortgage Insurance")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.lmi,
+                  expression: "calc.lmi"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "lmi",
+                type: "number",
+                placeholder: "Only applicable if your deposit is less than 20%"
+              },
+              domProps: { value: _vm.calc.lmi },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "lmi", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "fees" }
+            },
+            [_vm._v("Mortgage Establishment Fees")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.fees,
+                  expression: "calc.fees"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "fees",
+                type: "number",
+                placeholder: "Only applicable if your deposit is less than 20%"
+              },
+              domProps: { value: _vm.calc.fees },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "fees", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "term" }
+            },
+            [_vm._v("Mortgage Term (years)")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.term,
+                  expression: "calc.term"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "term",
+                type: "number",
+                placeholder: "Pick a term from 1-30 years."
+              },
+              domProps: { value: _vm.calc.term },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "term", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "rate" }
+            },
+            [_vm._v("Mortgage Interest Rate %")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.rate,
+                  expression: "calc.rate"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: {
+                id: "rate",
+                type: "number",
+                placeholder: "Enter your expected interest rate."
+              },
+              domProps: { value: _vm.calc.rate },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "rate", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "naf" }
+            },
+            [_vm._v("Net Amount Financed (Total mortgage borrowed)")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c(
+              "span",
+              {
+                staticClass:
+                  "px-2 form-input block w-full sm:text-sm sm:leading-5 font-bold"
+              },
+              [
+                _vm._v(
+                  "\n              " +
+                    _vm._s(_vm._f("money")(_vm.naf)) +
+                    "\n            "
+                )
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "pmt" }
+            },
+            [_vm._v("Mortgage Repayment (monthly)")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c(
+              "span",
+              {
+                staticClass:
+                  "px-2 form-input block w-full sm:text-sm sm:leading-5 font-bold"
+              },
+              [
+                _vm._v(
+                  "\n              " +
+                    _vm._s(_vm._f("money")(_vm.monthly_pmt)) +
+                    "\n            "
+                )
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "extra_pmt" }
+            },
+            [_vm._v("Additional payments (to pay it off quicker)")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.calc.extra_pmt,
+                  expression: "calc.extra_pmt"
+                }
+              ],
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: { id: "extra_pmt", type: "number" },
+              domProps: { value: _vm.calc.extra_pmt },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.calc, "extra_pmt", $event.target.value)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-full mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-sm font-medium leading-5 text-gray-700",
+              attrs: { for: "new_length" }
+            },
+            [_vm._v("Adjusted Mortgage term (years)")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-1 relative rounded-md shadow-sm" }, [
+            _c("input", {
+              staticClass:
+                "px-2 form-input block w-full sm:text-sm sm:leading-5",
+              attrs: { id: "new_length", type: "number", readonly: "" },
+              domProps: { value: _vm.schedule.length / 12 }
+            })
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div")
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "p-4 min-w-full" }, [
+      _c("h1", { staticClass: "font-semibold text-gray-800 text-lg" }, [
+        _vm._v("\n            Mortgage Amortisation Schedule\n        ")
+      ]),
+      _vm._v(" "),
+      _c("table", { staticClass: "min-w-full" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "tbody",
+          _vm._l(_vm.schedule, function(line, index) {
+            return _c("tr", { key: index }, [
+              _c(
+                "td",
+                {
+                  staticClass:
+                    "px-1 py-1 text-gray-500 whitespace-no-wrap text-sm"
+                },
+                [
+                  _vm._v(
+                    "\n              " + _vm._s(line.month) + "\n            "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "td",
+                {
+                  staticClass:
+                    "px-3 py-1 text-gray-500 whitespace-no-wrap text-sm"
+                },
+                [
+                  _vm._v(
+                    "\n              " +
+                      _vm._s(_vm._f("money")(line.start)) +
+                      "\n            "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "td",
+                {
+                  staticClass:
+                    "px-3 py-1 text-gray-500 whitespace-no-wrap text-sm"
+                },
+                [
+                  _vm._v(
+                    "\n              " +
+                      _vm._s(_vm._f("money")(line.interest)) +
+                      "\n            "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "td",
+                {
+                  staticClass:
+                    "px-3 py-1 text-gray-500 whitespace-no-wrap text-sm"
+                },
+                [
+                  _vm._v(
+                    "\n              " +
+                      _vm._s(_vm._f("money")(line.pmt)) +
+                      "\n            "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "td",
+                {
+                  staticClass:
+                    "px-3 py-1 text-gray-500 whitespace-no-wrap text-sm"
+                },
+                [
+                  _vm._v(
+                    "\n              " +
+                      _vm._s(_vm._f("money")(line.extra_pmt)) +
+                      "\n            "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "td",
+                {
+                  staticClass:
+                    "px-3 py-1 text-gray-500 whitespace-no-wrap text-sm"
+                },
+                [
+                  _vm._v(
+                    "\n              " +
+                      _vm._s(_vm._f("money")(line.end)) +
+                      "\n            "
+                  )
+                ]
+              )
+            ])
+          }),
+          0
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c(
+          "th",
+          {
+            staticClass:
+              "px-1 py-1 bg-gray-100 text-gray-600 text-left text-xs font-medium"
+          },
+          [_vm._v("\n              Month\n            ")]
+        ),
+        _vm._v(" "),
+        _c(
+          "th",
+          {
+            staticClass:
+              "px-3 py-1 bg-gray-100 text-gray-600 text-left text-sm font-medium"
+          },
+          [_vm._v("\n              Balance\n            ")]
+        ),
+        _vm._v(" "),
+        _c(
+          "th",
+          {
+            staticClass:
+              "px-3 py-1 bg-gray-100 text-gray-600 text-left text-sm font-medium"
+          },
+          [_vm._v("\n              Interest Applied\n            ")]
+        ),
+        _vm._v(" "),
+        _c(
+          "th",
+          {
+            staticClass:
+              "px-3 py-1 bg-gray-100 text-gray-600 text-left text-sm font-medium"
+          },
+          [_vm._v("\n              Monthly Payment\n            ")]
+        ),
+        _vm._v(" "),
+        _c(
+          "th",
+          {
+            staticClass:
+              "px-3 py-1 bg-gray-100 text-gray-600 text-left text-sm font-medium"
+          },
+          [_vm._v("\n              Extra Payment\n            ")]
+        ),
+        _vm._v(" "),
+        _c(
+          "th",
+          {
+            staticClass:
+              "px-3 py-1 bg-gray-100 text-gray-600 text-left text-sm font-medium"
+          },
+          [_vm._v("\n              Closing Balance\n            ")]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -49716,6 +50631,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('mortgage-calculator', __webpack_require__(/*! ./components/MortgageCalculator.vue */ "./resources/js/components/MortgageCalculator.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -49837,6 +50753,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/MortgageCalculator.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/MortgageCalculator.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MortgageCalculator_vue_vue_type_template_id_1af5c369___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MortgageCalculator.vue?vue&type=template&id=1af5c369& */ "./resources/js/components/MortgageCalculator.vue?vue&type=template&id=1af5c369&");
+/* harmony import */ var _MortgageCalculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MortgageCalculator.vue?vue&type=script&lang=js& */ "./resources/js/components/MortgageCalculator.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _MortgageCalculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _MortgageCalculator_vue_vue_type_template_id_1af5c369___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _MortgageCalculator_vue_vue_type_template_id_1af5c369___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/MortgageCalculator.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/MortgageCalculator.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/MortgageCalculator.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MortgageCalculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./MortgageCalculator.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MortgageCalculator.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MortgageCalculator_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/MortgageCalculator.vue?vue&type=template&id=1af5c369&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/MortgageCalculator.vue?vue&type=template&id=1af5c369& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MortgageCalculator_vue_vue_type_template_id_1af5c369___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./MortgageCalculator.vue?vue&type=template&id=1af5c369& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MortgageCalculator.vue?vue&type=template&id=1af5c369&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MortgageCalculator_vue_vue_type_template_id_1af5c369___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MortgageCalculator_vue_vue_type_template_id_1af5c369___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
