@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/first-home-buyers-strategy', function () {
+    return view('squeeze/risksfhb');
+});
+Route::get('/mortgage-calculator', function () {
+    return view('mortgagecalculator');
+});
 
 Auth::routes();
 
