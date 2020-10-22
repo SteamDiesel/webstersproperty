@@ -1,5 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled: true,
+    content: [
+    '**/*.php',
+    './resources/**/*.vue',
+    './resources/**/*.php',
+    './public/index.html'
+    ]
+  },
   target: 'relaxed',
   prefix: '',
   important: false,

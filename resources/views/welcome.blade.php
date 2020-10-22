@@ -71,27 +71,28 @@
                 </a>
             </div>
         </div>
-        <div class="h-20 w-full"></div>
+        <div class="h-20 w-full">|</div>
 
 
 
 
         <!-- Splash with video -->
-        <div class="h-screen flex justify-center items-center text-white pb-16 px-4" style="background-image: url(img/Hero-Background-3-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
-            <div class="flex flex-col items-center container mx-auto">
+        <div class="min-h-screen flex justify-center items-center text-white pb-16 px-4" style="background-image: url(img/Hero-Background-3-comp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
+            <div class="flex flex-col items-center container mx-auto pt-20">
                 <h2 class="text-white text-xl uppercase pb-8 text-center">
                     ATTENTION FIRST HOME BUYER
                 </h2>
                 <p class=" text-lg md:text-4xl pb-8 font-semibold text-center">
-                    Finally! The New Way To Use Free Grant Funding To Become Finance Approved In Just 7 Days - Guaranteed!
+                    Get Up To $55,000 Towards Your First Home RIGHT NOW! We're In The Final Stages Of HomeBuilder And Land Is Running Out!
                 </p>
                 <p class="text-md md:text-lg pb-8 text-center">
-                    Even If you Have Less Than a 5% Deposit Or Money For Stamp Duty!
+                    FHOG and HomeBuilder Can Now Be Used As Deposit – Find Out If You Qualify For A Loan NOW!
                 </p>
                 <div class="mb-8 flex justify-center w-full">
-                    <iframe width="800" height="450" src="https://www.youtube.com/embed/_Cu77G2zMUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="hidden sm:block" width="800" height="450" src="https://www.youtube.com/embed/_Cu77G2zMUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="sm:hidden" width="400" height="225" src="https://www.youtube.com/embed/_Cu77G2zMUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <a href="https://calendly.com/property-partners-finance-strategist/free-30-minutes-deposit-strategy-session" class="px-8 py-6 text-md md:px-10 md:py-8 md:text-lg bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
+                <a href="https://calendly.com/property-partners-finance-strategist/free-30-minutes-deposit-strategy-session" class="px-8 py-6 text-center text-md md:px-10 md:py-8 md:text-lg bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
             </div>
         </div>
 
@@ -113,7 +114,8 @@
                             <h3 class="text-xl font-semibold pb-4">
                                 Are you sick of researching properties and visiting Display Homes?
                             </h3>
-                            Tired of Paying Rent and paying off someone else’s mortgage? Looking for ways to get into your First Home faster? At Property Partners, we help First Home Buyers achieve their desired outcomes in the shortest time possible.
+                            Tired of Paying Rent and paying off someone else’s mortgage? Looking for ways to get into your First Home faster? 
+                            At Property Partners, we help First Home Buyers achieve their desired outcomes in the shortest time possible.
                         </div>
                     </div>
                     <div class="w-100 flex items-center h-full">
@@ -129,7 +131,8 @@
                             <h3 class="text-xl font-semibold pb-4">
                                 Over the last 7 Years years we’ve shown hundreds of First Home Buyers how to easily use their existing savings to get into the Property Market.
                             </h3>
-                            We’ve shown hundreds of people that they are already in a position to realise their property goals and created hundreds of homes for our clients, and we can do the same for you too.
+                            We’ve shown hundreds of people that they are already in a position to realise their property goals and created hundreds of homes for our 
+                            clients, and we can do the same for you too.
                         </div>
                     </div>
 
@@ -175,11 +178,11 @@
 
         <!-- section 2 -->
         <div class="bg-gray-400 py-10 md:py-20 px-4">
-            <div class="container mx-auto flex items-center justify-center text-center">
-                <div class="w-1/2">
+            <div class="container mx-auto sm:flex items-center justify-center text-center">
+                <div class="w-full">
                     <img src="/img/Booklet-8Risk-FHB-optimised.png" alt="">
                 </div>
-                <div class="w-1/2">
+                <div class="w-full">
                     <h2 class="text-lg md:text-4xl font-semibold text-center pb-6">
                         Download our free guide!
                     </h2>
@@ -227,7 +230,7 @@
             <div class="container mx-auto flex flex-col items-center justify-center text-center">
                 <img class="rounded-full md:mb-20" src="img/Checklist-Icon-150x150.png">
                 <h2 class="text-xl font-semibold mb-10 md:mb-20">Simply Follow Our Proven Strategies For Finance Approval & You’ll Avoid Missing Out On A Once In A Lifetime Property Market Window</h2>
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 text-center bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
             </div>
         </div>
 
@@ -293,7 +296,7 @@
                 </h2>
                 <div class="mb-20">
                     <img class="" src="img/Maree-Review-Email-resize-2.png" alt="Maree review email saying: happy with the overall result despite how complicated our situation is. thank you very much, Maree.">
-                    <div class="md:flex">
+                    <div class="xl:flex">
                         <img class="h-full" src="img/Jeff-Review-E-mail.png" alt="Jeff feedback email saying: Yes all went super well, thank you andrew. Anthony was a Champion and Jason and Elissa did a teriffic job on the finance.">
                         <img class="h-full" src="img/Text-Message_01.png" alt="text message saying: thankyou very much for all your help with this purchase. Leanne and I couldn't have got through this process by ourselves and everything has just been terrific. thumbs up.">
                     </div>
@@ -301,7 +304,7 @@
 
                 </div>
 
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-center text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
             </div>
         </div>
         <!-- small screen -->
@@ -508,7 +511,7 @@
             <div class="container mx-auto flex flex-col items-center justify-center text-center">
                 <img class="rounded-full md:mb-20" src="img/House-Hand-Icon-150x150.png">
                 <h2 class="text-xl font-semibold mb-10 md:mb-20">Are You Ready To Help Yourself Realise Your Property Dreams?</h2>
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-center text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
             </div>
         </div>
 
@@ -595,7 +598,7 @@
                 </div>
             </div>
             <div class="w-full flex items-center justify-center">
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-center text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
 
             </div>
         </div>
@@ -613,7 +616,7 @@
                 <p class="mb-8 text-center max-w-3xl">
                     When you work with Property Partners we’re so confident that we can find you a finance and property solution that in the extremely unlikely event we can’t help you, we’ll write you a cheque for $500 – no questions asked. See T’s and C’s
                 </p>
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md text-center md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
 
             </div>
         </div>
@@ -699,7 +702,7 @@
 
                 </div>
 
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-center text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
             </div>
         </div>
         <!-- small screen -->
@@ -779,7 +782,7 @@
                     </p>
                 </div>
 
-                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
+                <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-center text-md md:text-lg md:px-12 md:py-8 bg-blue-800 text-orange-300 font-bold rounded-lg uppercase glow-orange">Claim your free consultation</a>
 
 
             </div>
