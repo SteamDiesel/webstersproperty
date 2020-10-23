@@ -4,10 +4,9 @@
 
 <body>
     <div id="app">
-
+    <x-splash-lander class="">
         <!-- Splash with video -->
-        <div class="min-h-screen flex justify-center items-center text-white pb-16 px-4" 
-        style="background-image: url(img/Hero-Background-5.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
+        
             <div class="flex flex-col items-center container mx-auto">
                 <h2 class="text-white text-xl uppercase pb-8 text-center">
                     ATTENTION FIRST HOME BUYER
@@ -25,7 +24,8 @@
                 <a href="https://calendly.com/property-partners-finance-strategist/free-30-minutes-deposit-strategy-session" 
                 class="px-8 py-6 text-center text-md md:px-10 md:py-8 md:text-lg bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
             </div>
-        </div>
+      
+    </x-splash-lander>
 
                        
 
@@ -50,12 +50,12 @@
                         </div>
                     </div>
                     <div class="w-100 flex items-center h-full">
-                        <img class="w-100" src="img/Image-Circle-1.png">
+                        <img class="w-100" src="images/Image-Circle-1.webp">
                     </div>
                 </div>
                 <div class="h-80 flex justify-between w-full px-10">
                     <div class="w-100 flex items-center h-full">
-                        <img class="w-100" src="img/CIRCLE-IMAGE-B3.png">
+                        <img class="w-100" src="images/CIRCLE-IMAGE-B3.webp">
                     </div>
                     <div class="w-full flex items-center h-full">
                         <div class="pl-12 max-w-3xl">
@@ -73,7 +73,7 @@
             <div class="block md:hidden">
                 <div class="">
                     <div class="w-full flex justify-center items-center">
-                        <img class="w-80" src="img/Image-Circle-1.png">
+                        <img class="w-80" src="images/Image-Circle-1.webp">
                     </div>
                     <div class="w-full flex justify-center items-center">
                         <div class="">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="">
                     <div class="w-full flex justify-center items-center">
-                        <img class="w-80" src="img/CIRCLE-IMAGE-B3.png">
+                        <img class="w-80" src="images/CIRCLE-IMAGE-B3.webp">
                     </div>
                     <div class="w-full flex justify-center items-center">
                         <div class="">

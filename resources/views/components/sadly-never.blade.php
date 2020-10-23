@@ -17,12 +17,12 @@
                         </div>
                     </div>
                     <div class="w-100 flex items-center h-full">
-                        <img class="w-100" src="img/CIRCLE-IMAGE-A3.png">
+                        <img class="w-100" src="images/CIRCLE-IMAGE-A3.webp">
                     </div>
                 </div>
                 <div class="h-80 flex justify-between w-full px-10">
                     <div class="w-100 flex items-center h-full">
-                        <img class="w-100" src="img/CIRCLE-IMAGE-B2.png">
+                        <img class="w-100" src="images/CIRCLE-IMAGE-B2.webp">
                     </div>
                     <div class="w-full flex items-center h-full">
                         <div class="pl-12 max-w-3xl">
@@ -40,7 +40,7 @@
             <div class="block md:hidden">
                 <div class="">
                     <div class="w-full flex justify-center items-center">
-                        <img class="w-80" src="img/CIRCLE-IMAGE-A3.png">
+                        <img class="w-80" src="images/CIRCLE-IMAGE-A3.webp">
                     </div>
                     <div class="w-full flex justify-center items-center">
                         <div class="">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="">
                     <div class="w-full flex justify-center items-center">
-                        <img class="w-80" src="img/CIRCLE-IMAGE-B2.png">
+                        <img class="w-80" src="images/CIRCLE-IMAGE-B2.webp">
                     </div>
                     <div class="w-full flex justify-center items-center">
                         <div class="">

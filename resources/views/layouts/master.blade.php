@@ -9,6 +9,10 @@
     <title>Websters Property Partners</title>
     <meta name="description" content="Specialised in Brand New Property Sales in Greater Brisbane. From First Home Buyers to adept Investors, confidently buy Real Estate with Websters Property.">
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script type="text/javascript" src="https://dj831.infusionsoft.app/app/webTracking/getTrackingCode" defer></script>
+    <script type="text/javascript" src="https://dj831.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.252135" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer></script>
+    <script type="text/javascript" src="https://dj831.infusionsoft.com/app/timezone/timezoneInputJs?xid=c0652428999f11d0beaea367d0dab68a" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
         body {
@@ -73,10 +77,7 @@
             @yield('content')
         </main>
     </div>
-    <script type="text/javascript" src="https://dj831.infusionsoft.app/app/webTracking/getTrackingCode"></script>
-    <script type="text/javascript" src="https://dj831.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.252135"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
-    <script type="text/javascript" src="https://dj831.infusionsoft.com/app/timezone/timezoneInputJs?xid=c0652428999f11d0beaea367d0dab68a"></script>
+
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<div class="min-h-screen flex justify-center items-center text-white py-24 px-4" style="background-color: #1e4975; background-image: url(img/BG-Meeting-Blue-2.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
+<div class="min-h-screen flex justify-center items-center text-white py-24 px-4" style="background-color: #1e4975; background-image: url(images/BG-Meeting-Blue-2.webp); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;">
     <div class="w-full container mx-auto">
         <div class="w-full flex justify-center">
             <img class="w-24" src="img/circle-logo-small.png" alt="small logo image">

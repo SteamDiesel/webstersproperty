@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="w-100 flex items-center h-full">
-                <img class="w-100" src="img/CIRCLE-IMAGE-A2.png">
+                <img class="w-100" src="images/CIRCLE-IMAGE-A2.webp">
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="w-full flex items-center h-full">
-                <img class="w-80" src="img/CIRCLE-IMAGE-A2.png">
+                <img class="w-80" src="images/CIRCLE-IMAGE-A2.webp">
             </div>
         </div>
     </div>

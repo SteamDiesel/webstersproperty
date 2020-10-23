@@ -6,10 +6,10 @@
             Here's What We've Been Up To Recently
         </h2>
         <div class="mb-20 flex flex-wrap w-full justify-center">
-            <img class="" src="img/Google-Reviews_01-1.png">
-            <img class="" src="img/Google-Reviews_02-1.png">
-            <img class="" src="img/Google-Reviews_03-1.png">
-            <img class="" src="img/Google-Reviews_04-1.png">
+            <img class="" src="images/Google-Reviews_01-1.webp">
+            <img class="" src="images/Google-Reviews_02-1.webp">
+            <img class="" src="images/Google-Reviews_03-1.webp">
+            <img class="" src="images/Google-Reviews_04-1.webp">
         </div>
         <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-12 py-8 bg-blue-800 text-center text-orange-300 font-bold text-lg rounded-lg uppercase glow-orange">Claim your free consultation</a>
     </div>
@@ -27,10 +27,10 @@
             Here's What We've Been Up To Recently
         </h2>
         <div class="mb-10">
-            <img class="" src="img/Google-Reviews_01-1.png">
-            <img class="" src="img/Google-Reviews_02-1.png">
-            <img class="" src="img/Google-Reviews_03-1.png">
-            <img class="" src="img/Google-Reviews_04-1.png">
+            <img class="" src="images/Google-Reviews_01-1.webp">
+            <img class="" src="images/Google-Reviews_02-1.webp">
+            <img class="" src="images/Google-Reviews_03-1.webp">
+            <img class="" src="images/Google-Reviews_04-1.webp">
         </div>
         <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
     </div>

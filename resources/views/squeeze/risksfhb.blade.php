@@ -3,14 +3,17 @@
 @section('content')
 
 
-<x-splash-lander class="relative">
+<x-splash-lander class="">
+
+
+
     <!-- Phone Screen -->
     <div class="w-full sm:hidden text-center">
         <h2 class="text-white text-sm sm:text-md font-semibold pb-8 mt-10  sm:text-start">
             Limited To The First 25 Approved Applicants - Get $55,000 Towards Your First Home - Download Our Guide and Reserve Your Equity Boost Right NOW!
         </h2>
         <div class="flex justify-center w-full sm:hidden sm:text-start">
-            <img class="w-3/4" src="/img/Booklet-8Risk-FHB-optimised.png" alt="">
+            <img class="w-3/4" src="/images/Booklet-8Risk-FHB-optimised.webp" alt="">
         </div>
         <p class=" text-2xl tracking-wider md:text-4xl pb-8 font-bold sm:text-start">
             Download This Free Guide To Register For Your $55,000 First Home Grant Boost RIGHT NOW!
@@ -54,6 +57,9 @@
                 </div>
         </modal-button>
     </div>
+
+
+
 
     <!-- Larger screen -->
     <div class="sm:flex pt-6 hidden sm:block">
@@ -103,7 +109,7 @@
 
         </div>
         <div class="w-full flex items-center justify-center">
-            <img src="/img/Booklet-8Risk-FHB-optimised.png" alt="">
+            <img src="/images/Booklet-8Risk-FHB-optimised.webp" alt="">
         </div>
 
     </div>

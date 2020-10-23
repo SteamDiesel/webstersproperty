@@ -1,7 +1,7 @@
 <div class="bg-gray-400 py-10 md:py-20 px-4">
             <div class="container mx-auto sm:flex items-center justify-center text-center">
                 <div class="w-full">
-                    <img src="/img/Booklet-8Risk-FHB-optimised.png" alt="">
+                    <img src="/images/Booklet-8Risk-FHB-optimised.webp" alt="">
                 </div>
                 <div class="w-full">
                     <h2 class="text-lg md:text-4xl font-semibold text-center pb-6">

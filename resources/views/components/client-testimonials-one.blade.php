@@ -9,10 +9,10 @@
                 Here's What Our Clients Have To Say
             </h2>
             <div class="mb-20">
-                <img class="" src="img/Maree-Review-Email-resize-2.png" alt="Maree review email saying: happy with the overall result despite how complicated our situation is. thank you very much, Maree.">
+                <img class="" src="images/Maree-Review-Email-resize-2.webp" alt="Maree review email saying: happy with the overall result despite how complicated our situation is. thank you very much, Maree.">
                 <div class="xl:flex">
-                    <img class="h-full" src="img/Jeff-Review-E-mail.png" alt="Jeff feedback email saying: Yes all went super well, thank you andrew. Anthony was a Champion and Jason and Elissa did a teriffic job on the finance.">
-                    <img class="h-full" src="img/Text-Message_01.png" alt="text message saying: thankyou very much for all your help with this purchase. Leanne and I couldn't have got through this process by ourselves and everything has just been terrific. thumbs up.">
+                    <img class="h-full" src="images/Jeff-Review-E-mail.webp" alt="Jeff feedback email saying: Yes all went super well, thank you andrew. Anthony was a Champion and Jason and Elissa did a teriffic job on the finance.">
+                    <img class="h-full" src="images/Text-Message_01.webp" alt="text message saying: thankyou very much for all your help with this purchase. Leanne and I couldn't have got through this process by ourselves and everything has just been terrific. thumbs up.">
                 </div>
 
 
@@ -32,9 +32,9 @@
                 Here's What Our Clients Have To Say
             </h2>
             <div class="mb-10">
-                <img class="" src="img/Maree-Review-Email-resize-2.png" alt="Maree review email saying: happy with the overall result despite how complicated our situation is. thank you very much, Maree.">
-                <img class="h-full" src="img/Jeff-Review-E-mail.png" alt="Jeff feedback email saying: Yes all went super well, thank you andrew. Anthony was a Champion and Jason and Elissa did a teriffic job on the finance.">
-                <img class="h-full" src="img/Text-Message_01.png" alt="text message saying: thankyou very much for all your help with this purchase. Leanne and I couldn't have got through this process by ourselves and everything has just been terrific. thumbs up.">
+                <img class="" src="images/Maree-Review-Email-resize-2.webp" alt="Maree review email saying: happy with the overall result despite how complicated our situation is. thank you very much, Maree.">
+                <img class="h-full" src="images/Jeff-Review-E-mail.webp" alt="Jeff feedback email saying: Yes all went super well, thank you andrew. Anthony was a Champion and Jason and Elissa did a teriffic job on the finance.">
+                <img class="h-full" src="images/Text-Message_01.webp" alt="text message saying: thankyou very much for all your help with this purchase. Leanne and I couldn't have got through this process by ourselves and everything has just been terrific. thumbs up.">
             </div>
             <a href="https://calendly.com/jasonlawpp/30-minutes-property-buying-strategy-session" class="px-8 py-6 text-md bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange">Book your free consultation</a>
         </div>
