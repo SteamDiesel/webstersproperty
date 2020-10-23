@@ -7,14 +7,14 @@
     <x-splash-lander class="">
         <!-- Splash with video -->
         
-            <div class="flex flex-col items-center container mx-auto">
-                <h2 class="text-white text-xl uppercase pb-8 text-center">
-                    ATTENTION FIRST HOME BUYER
+            <div class="flex flex-col items-center container mx-auto md:w-2/3">
+                <h2 class="text-white text-sm sm:text-md uppercase font-bold pb-6 text-center leading-tight">
+                ATTENTION FIRST HOME BUYER WHO'S HAD ENOUGH OF PUTTING OFF FINANCIAL SECURITY!
                 </h2>
-                <p class=" text-lg md:text-4xl pb-8 font-semibold text-center">
+                <p class="leading-tight tracking-wide text-2xl md:text-3xl pb-6 font-bold text-center">
                     Get Up To $55,000 Towards Your First Home RIGHT NOW! We're In The Final Stages Of HomeBuilder And Land Is Running Out!
                 </p>
-                <p class="text-md md:text-lg pb-8 text-center">
+                <p class="text-sm md:text-lg pb-6 text-center">
                     FHOG and HomeBuilder Can Now Be Used As Deposit – Find Out If You Qualify For A Loan NOW!
                 </p>
                 <div class="mb-8 flex justify-center w-full">

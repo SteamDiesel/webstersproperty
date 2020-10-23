@@ -14,9 +14,10 @@
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer></script>
     <script type="text/javascript" src="https://dj831.infusionsoft.com/app/timezone/timezoneInputJs?xid=c0652428999f11d0beaea367d0dab68a" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: "Montserrat"
+            font-family: 'Montserrat', sans-serif;
         }
 
         h1,
@@ -54,7 +55,7 @@
 <body>
     <div id="app" class="relative">
         <!-- Top Bar -->
-        <div class="bg-white w-full h-16 sm:h-20 px-4 md:px-8 sm:py-4 py-2 flex justify-between fixed">
+        <div class="bg-white w-full h-16 sm:h-20 px-4 md:px-16 sm:py-3 py-2 flex justify-between fixed">
             <a class="w-full" href="/">
                 <h1 class="hidden">Websters Property Partners</h1>
                 <img class="h-10 sm:h-full" src="img/PP-Logo-Narrow-sml.png" alt="Logo for Websters Property Partners">
