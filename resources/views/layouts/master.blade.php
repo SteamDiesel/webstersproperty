@@ -48,7 +48,7 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" class="relative">
         <!-- Top Bar -->
         <div class="bg-white w-full h-16 sm:h-20 px-4 md:px-8 sm:py-4 py-2 flex justify-between fixed">
             <a class="w-full" href="/">
@@ -73,6 +73,10 @@
             @yield('content')
         </main>
     </div>
+    <script type="text/javascript" src="https://dj831.infusionsoft.app/app/webTracking/getTrackingCode"></script>
+    <script type="text/javascript" src="https://dj831.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.252135"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
+    <script type="text/javascript" src="https://dj831.infusionsoft.com/app/timezone/timezoneInputJs?xid=c0652428999f11d0beaea367d0dab68a"></script>
 </body>
 
 </html>

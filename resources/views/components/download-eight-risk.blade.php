@@ -34,10 +34,7 @@
                         <button class="infusion-recaptcha px-8 py-6 text-md md:px-10 md:py-8 md:text-lg bg-blue-800 text-orange-300 font-bold  rounded-lg uppercase glow-orange" id="recaptcha_c0652428999f11d0beaea367d0dab68a" type="submit">Download</button>
                     </div>
                 </form>
-                <script type="text/javascript" src="https://dj831.infusionsoft.app/app/webTracking/getTrackingCode"></script>
-                <script type="text/javascript" src="https://dj831.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.252135"></script>
-                <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
-                <script type="text/javascript" src="https://dj831.infusionsoft.com/app/timezone/timezoneInputJs?xid=c0652428999f11d0beaea367d0dab68a"></script>
+
                 </div>
                 
             </div>
