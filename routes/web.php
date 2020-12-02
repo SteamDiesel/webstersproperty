@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/privacy', function () {
+    return view('privacy');
+});
 Route::get('/first-home-buyers-strategy', function () {
     return view('squeeze/risksfhb');
 });
